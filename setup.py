@@ -13,7 +13,7 @@ def get_requirements(file_path: str) -> List[str]:
     return requirements
 
 setup(
-    name="your_package_name",
+    name="",
     version="0.1.0",
     packages=find_packages(),
     install_requires=[
