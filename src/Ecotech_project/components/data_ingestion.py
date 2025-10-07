@@ -22,7 +22,7 @@ class DataIngestion:
     def initiate_data_ingestion(self):
         try:
             # Read data from MySQL
-            df = read_sql_data()
+            df = pd.read_csv(os.path.join('notebook/data','raw.csv'))
             logging.info("Reading completed from MySQL database")
 
             # Ensure artifacts directory exists
