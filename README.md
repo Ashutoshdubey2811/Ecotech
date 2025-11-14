@@ -1,5 +1,5 @@
 # End to end Data Science project
-Ecotech is an end-to-end Machine Learning pipeline that automates data ingestion, EDA, data transformation, model benchmarking, and model selection.
+ML-AutoPilot is an end-to-end Machine Learning pipeline that automates data ingestion, EDA, data transformation, model benchmarking, and model selection.
 The system evaluates multiple ML algorithms and automatically selects the best-performing model based on accuracy.
 The final model (CatBoost in this case) is saved and ready for deployment.
 
@@ -110,7 +110,7 @@ Clean artifact management for reproducibility
 
 📂 Installation & Setup
 1. Clone the Repository
-git clone https://github.com/Ashutoshdubey2811/Ecotech.git
+git clone https://github.com/Ashutoshdubey2811/ML-AutoPilot.git
 cd Ecotech
 
 2. Create Virtual Environment
